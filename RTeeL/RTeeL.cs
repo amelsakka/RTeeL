@@ -9,6 +9,8 @@ namespace RTeeL
 {
     class RTeeL
     {
+        // Developed by: Ahmad Sakka - http://ahmadelsakka.com
+        // amelsakka@gmail.com
         private Letter[] letters;
 
         public string fixRTeeL(string s)
