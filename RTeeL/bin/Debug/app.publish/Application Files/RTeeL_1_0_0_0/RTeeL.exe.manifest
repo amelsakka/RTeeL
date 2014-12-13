@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="RTeeL.exe" version="1.0.0.0" publicKeyToken="ae891324bf268b56" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="rteel.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RTeeL" version="0.2.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="RTeeL.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RTeeL.exe" size="111616">
+      <assemblyIdentity name="RTeeL" version="0.2.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>gAbgQJWIcDlJivX3B6BLkrYdaas=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="rteel.ico" size="31302">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>07zfX4IE+E1sjsiwf+KesVebZwo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Sakka-PC\Sakka" issuerKeyHash="449fa104f1def33f313d4b070b2068f0bb689907" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>tNLYoMGif3ptsop6682u8wK3wYg=</DigestValue></Reference></SignedInfo><SignatureValue>iG7JJL/0BbM2NvTJZyF0lhX/N9BKj3kw3YtAfDfyVhIvsXjBa6AFLWYOOpId8Y+WhmGClruklwMbMKAZymSbiReTKN2wTf1c0h4823473AmW07WChuPdVGgH/8BcGObLgNDwsgOa/nNOjGODqDE043xjhx9PBuezs0mIijIgXLI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>v5UZLxs0VZd6bm+yAtJnwN4mL7mSxjfXHv/Xs/lbwzKs9dYL2zhaVMgcKRZkmS+kq2GMNbnY+FX2PSb04UmpdEgU0thFpBm3sccrEd1bag661wLBnDRzJ4Nhu4/PPMHM/PX93HUAmBjLBjXRQOohTAGZ97wW74ddCMooixFYRAE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="88c1b702f3aecdeb7a8ab26d7a7fa2c1a0d8d2b4" Description="" Url=""><as:assemblyIdentity name="RTeeL.exe" version="1.0.0.0" publicKeyToken="ae891324bf268b56" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Sakka-PC\Sakka</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>4sBtNsVxFSdB7aZTkKerAxuF7+c=</DigestValue></Reference></SignedInfo><SignatureValue>bj/1ayewCbTK4b2s6v9bLbzW6VYZWTLbJ0tnBik8mRQEvYlf+PmgD+WaXzAUhcFaquIWdwpOOAzyIUMUUNEUPhRCX9/+///XzDUci/fULZMcOsjiFNziuDQ1FXWhKQBpobrkByvsc6t3OviWNfTF1s/caIP3K+JBmZ8bDUzpcjo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>v5UZLxs0VZd6bm+yAtJnwN4mL7mSxjfXHv/Xs/lbwzKs9dYL2zhaVMgcKRZkmS+kq2GMNbnY+FX2PSb04UmpdEgU0thFpBm3sccrEd1bag661wLBnDRzJ4Nhu4/PPMHM/PX93HUAmBjLBjXRQOohTAGZ97wW74ddCMooixFYRAE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQahqx88X7vJhBX7oGF0rFAzANBgkqhkiG9w0BAQUFADAnMSUwIwYDVQQDHhwAUwBhAGsAawBhAC0AUABDAFwAUwBhAGsAawBhMB4XDTE0MTIxMjIzMTMzM1oXDTE1MTIxMzA1MTMzM1owJzElMCMGA1UEAx4cAFMAYQBrAGsAYQAtAFAAQwBcAFMAYQBrAGsAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAv5UZLxs0VZd6bm+yAtJnwN4mL7mSxjfXHv/Xs/lbwzKs9dYL2zhaVMgcKRZkmS+kq2GMNbnY+FX2PSb04UmpdEgU0thFpBm3sccrEd1bag661wLBnDRzJ4Nhu4/PPMHM/PX93HUAmBjLBjXRQOohTAGZ97wW74ddCMooixFYRAECAwEAATANBgkqhkiG9w0BAQUFAAOBgQAEFZd6sYTz0gFKbWJrXyM+N641F6JemO6jOTKNW3OQ+5I3YP6mPuL6yddlWNoGk8OVpcRg3mKe15w9XMS2qSr2dD69jYckKBKzm3Fh8M1Q28FujGhSChO8V4Vr/zRdCjZMARy5ulZZrLRST4L7JgkicOhrNi5y1TyuO3j8zZYIIw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
