@@ -6,12 +6,12 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("RTeeL")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("RTeeL - RTL Fix")]
+[assembly: AssemblyDescription("RTeel (R-Tee-L) fixes RTL connected text and convert it to a form that could be properly rendered on systems that does not support RTL or connected letters. It currently supports only Arabic. Please contact me if you are interested in adding other languages (like Farsi/Persian) even without any programming skills.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("RTeeL")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCopyright("By: Sakka (amelsakka@gmail.com) & Swizzy (swizzy@xeupd.com)")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
