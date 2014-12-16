@@ -1,18 +1,20 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTeeL", "RTeeL\RTeeL.csproj", "{E53F7A33-A9B5-46C3-B65A-36BF996E250C}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RTeeL", "RTeeL\RTeeL.csproj", "{D0BA84F1-8BD1-4B1F-9D7B-1E644134FEAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x86 = Debug|x86
-		Release|x86 = Release|x86
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E53F7A33-A9B5-46C3-B65A-36BF996E250C}.Debug|x86.ActiveCfg = Debug|x86
-		{E53F7A33-A9B5-46C3-B65A-36BF996E250C}.Debug|x86.Build.0 = Debug|x86
-		{E53F7A33-A9B5-46C3-B65A-36BF996E250C}.Release|x86.ActiveCfg = Release|x86
-		{E53F7A33-A9B5-46C3-B65A-36BF996E250C}.Release|x86.Build.0 = Release|x86
+		{D0BA84F1-8BD1-4B1F-9D7B-1E644134FEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0BA84F1-8BD1-4B1F-9D7B-1E644134FEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0BA84F1-8BD1-4B1F-9D7B-1E644134FEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BA84F1-8BD1-4B1F-9D7B-1E644134FEAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,19 @@
+﻿<Window x:Class="RTeeL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="RTeeL v{0}.{1} by Sakka &amp; Swizzy" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <GroupBox Header="Input" Margin="0,10" Grid.Row="0">
+            <TextBox Name="Inputbox" TextChanged="Inputbox_TextChanged" />
+        </GroupBox>
+        <Button x:Name="FixBtn" Content="Fix Arabic" Margin="10,0" Grid.Row="1" IsEnabled="False" Click="FixBtn_Click" />
+        <GroupBox Header="Output" Margin="0,10" Grid.Row="2">
+            <TextBox Name="OutputBox" IsReadOnlyCaretVisible="True" />
+        </GroupBox>
+    </Grid>
+</Window>
