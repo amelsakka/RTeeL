@@ -1,5 +1,4 @@
 ﻿namespace RTeeL {
-    using System;
     using System.IO;
     using System.Reflection;
     using System.Windows;
@@ -17,7 +16,8 @@
             Title = string.Format(Title, ver.Major, ver.Minor);
             try {
                 var icon = System.Drawing.Icon.ExtractAssociatedIcon(Path.GetFileName(Assembly.GetAssembly(typeof(MainWindow)).CodeBase));
-                Icon = Imaging.CreateBitmapSourceFromHIcon(icon.Handle, new Int32Rect(0, 0, icon.Width, icon.Height), BitmapSizeOptions.FromWidthAndHeight(icon.Width, icon.Height));
+                if(icon != null)
+                    Icon = Imaging.CreateBitmapSourceFromHIcon(icon.Handle, new Int32Rect(0, 0, icon.Width, icon.Height), BitmapSizeOptions.FromWidthAndHeight(icon.Width, icon.Height));
             }
             catch {}
         }
